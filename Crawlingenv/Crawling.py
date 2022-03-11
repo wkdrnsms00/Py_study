@@ -7,7 +7,7 @@ from urllib.request import Request, urlopen
 #     print(anchor.get('href', '/'))
 # 기본 예제
 
-headers = {"User-Agent": "Mozilla/5.0"}
+headers = {"User-Agent": "Mozilla/5.0"}# 403 에러 해결 코드
 url =Request('https://comic.naver.com/index', headers=headers)
 response = urlopen(url)
 soup = BeautifulSoup(response, 'html.parser')
