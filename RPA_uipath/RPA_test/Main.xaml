@@ -1,0 +1,154 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="624,825" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart sap:VirtualizedContainerService.HintSize="634,636" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,127.5</av:PointCollection>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID0</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep x:Name="__ReferenceID0">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">200,127.5</av:Point>
+          <av:Size x:Key="ShapeSize">200,51</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: NAVER" sap:VirtualizedContainerService.HintSize="510,1306" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="804d4c44-bbea-4680-a36f-0d665c9637fd" Version="V1">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476,1090" sap2010:WorkflowViewState.IdRef="Sequence_1">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT query'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="434,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="삼성전자" Version="V1">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.naver.com/" DesignTimeRectangle="316, 184, 474, 50" ElementType="InputBox" FriendlyName="'INPUT query'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='검색어 입력' /&gt;" Guid="eeebf333-3db7-4b30-8f8c-f6a48f678086" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAd4AAAA2CAYAAABp/viYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVHhe7dxBTsJQFIVhtsHuukzEgTJtVYbGBMJAXcfTii8Pnd8z+r7kpEv4c2nDZvsyNTMzM8vsJ7wAQIbwAkCQ8AJAkPACQJDwAkCQ8AJAkPACQJDwAkCQ8AJAkPACQJDwAkCQ8AJAkPACQJDwAkCQ8AJAkPACQJDwAkCQ8AJAkPACQJDwAkCQ8AJAkbfze7s/PLW7h+V3s/ACQJVrdOebLcILAFX6lbs+T5fPNh9fhRcAqtxeu6s1vsILAEXGu91++XrHCwBlxsW7tN3383T5EF4AqNKj2+cdLwAUGhfvdevVK7wAUOR/eH1cBQCFRnT91AwA5faH8TVzn/ACQJH1LyP3j3/jK7wAECS8ABAkvAAQJLwAECS8ABAkvAAQJLwAECS8ABAkvAAQJLwAECS8ABAkvAAQJLwAECS8ABAkvAAQJLwAECS8ABAkvAAQJLwAECS8ABC02T5PzczMzBKb2hd+POz+J1SjXgAAAABJRU5ErkJggg==" InformativeScreenshot="c8ce14dd0c4f8f6f4a3064c61b133c24.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='NAVER' /&gt;" SearchSteps="FuzzySelector, Image" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ClickType="Single" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="434,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.naver.com/" DesignTimeRectangle="860, 243, 22, 22" FriendlyName="'SPAN'" FullSelectorArgument="&lt;webctrl idx='2' parentid='search_btn' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='search_btn' tag='SPAN' aaname='' /&gt;" Guid="f48c6772-e1af-4192-a396-75090817534d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKrSURBVEhLzZXLaxNRFMb9N3zVhehOcOVCF4IoCIKIIoKIVCu2IpQu1GrxheCDiu1CUxXFV3GjWGx9tKK1INVWxTxakzRpmpSkmqQxk8TYNo8mx3sOk8tM7s0kWVg84eMyOd85v5ybmTuLFptrYSH0f4BW245As/8h9CdsMJ1NQJ595vM5mEr/ghexr9Dguwk1ljppbbGkoCXmA3DK/whi83+gXPjTEdg/0S70KJYAwl/YrXxW2wDM5FLwJDoIjZN3YKf7Muweb6Up++JmyLLpMHDS9mCPrk+xdCCc5LkyTMUYz5RPsGakUVeg1Qb7SRhKjqlugNafXVIfSgc64X+glhgXabXcchC6lCGqybHJdrgvSX0ctMraANFskgpwEq2pnGosh8A646NaG1tlHg46rk4zm0sbblcpbXNdoHqM7a6LQp6D3iasZHoa/SiYKhVOg2EKvRJyHBTKxMjUNHlXMFWqjnAv9fjw2y7kOAj/SIxd7iuCqVK1BDqph3NuSsgJIHxOtIZqdCbwmHo4ZgNCjoN+pKNkwptCa6hG96bfUY/3iREhx0Ev2dmFgavWUI28qRD1aAt2CzkOOuq7TaZMPgvrvh8TjOW013ON6jG2OM8JeQ7Ch66wfQOJUVjKjiOt0UgrrfXgSQWpdjDpkHo4CFXnvU5mjM7IACxjx4s2X0q98W9Uk2a7scl5WurRgVC3wn1UhDGcdJUs1CqciZM/zl4rm51npR4BhCf4DfZk49GPgesb9krAw3PtaBP0xL7A/Ug/rGBbXajZOnYeFPWcxFUGE0AF7fO0wYS67whDiCn8mq4xDntNOj82N4KVBKHwhsC7ac/4Vbqu93UQdI4dvBsdLYLfCGYIkmm9vZmmk+VQWlgwo/DvqwZVIoQhBN++he/+CUimBQLVwl/zp90YLYgDOwAAAABJRU5ErkJggg==" InformativeScreenshot="f166a7c1063bb54558c87f78853ff2ce.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='NAVER' /&gt;" SearchSteps="FuzzySelector, Image" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ClickType="Single" DisplayName="Click '뉴스'" sap:VirtualizedContainerService.HintSize="434,156" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://search.naver.com/search.naver?where=nexearch&amp;sm=top_hty&amp;fbm=1&amp;ie=utf8&amp;query=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90" DesignTimeRectangle="534, 194, 54, 51" ElementType="Text" FriendlyName="'뉴스'" FullSelectorArgument="&lt;webctrl aaname='뉴스' aria-role='tab' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='뉴스' aria-role='tab' tag='A' type='' check:text='뉴스' /&gt;" Guid="99cd02bb-4d26-4b09-a9eb-7114861ffed1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADoAAAA3CAYAAABdJVn2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD9SURBVGhD7ZPdCYMwFIUzQkfIHi7hCk4Q6BSu4jJdwBGKLbTi6y0R8yK2an5oODkfHIRLAn733igpBHW5XaWElDPR5QsPRdGgKBoURYOiaFAUDYqiQVE0KIoGRY/S9700TSPDMCwVf7qum5OCrETbtp2TgmxE7f26rufEaNqabETtJN3qpphqFNGqqkRr/TV7U1rLOemYBIuG4NZ1S8rWYq7xX0SnaRJjzK6Ia4Q9a++E4C16ZGXXifHDvkSb6Na7SvHWfKHoWc6I2trWav9KaMM40bMUI5o7FEWDomhQFA2KokFRNCiKBkXRoCgaFEVD3R9PKSHq9R4FP6N8AAEIlimBe5zDAAAAAElFTkSuQmCC" InformativeScreenshot="6bf84c7c8d0f6943e7d84a7255519af5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='삼성전자 : 네이버 통합검색' /&gt;" SearchSteps="FuzzySelector, Image" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='새 열 0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='새 열 1 Url'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='새 열 2'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column3' Name='새 열 3 Url'&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='text' name2='Column1' attr2='href'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='text' name2='Column3' attr2='href'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" ExtractSimilar="True" sap:VirtualizedContainerService.HintSize="434,156" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="Page" MaximumResults="5" ScopeIdentifier="804d4c44-bbea-4680-a36f-0d665c9637fd" Version="V1">
+                <uix:NExtractData.NextLink>
+                  <uix:TargetAnchorable BrowserURL="https://search.naver.com/search.naver?where=news&amp;sm=tab_jum&amp;query=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90" DesignTimeRectangle="707, 775, 44, 55" ElementType="Text" FriendlyName="'다음'" FullSelectorArgument="&lt;webctrl aaname='다음' aria-role='button' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='다음' aria-role='button' tag='A' type='' check:text='다음' /&gt;" Guid="049cb2f6-be00-4be1-8c49-111d66481195" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAA7CAYAAAA9xQlEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFsSURBVGhD7Zq9jYNAEEbdiyWHpMT0QAGUQejYLbgBN0ADUAO5w8M+Y9Ysf7bl7zQYpJNOlwHjkeZJE+xE83ZnFoJd3R9PSI7V1znHp0f2fcU5L2Bs9VcAAni9gO7+QHGzvUjbdbIEfmPrppcQK0DQSZjy3U4iBaidxlMQKUAzQYNNIiIFCLqdVIATFeBGBbhRAW5UgBsV4EYFuFGB/wiCAGmaDqv5mE0gSRKs12scj8chMw+ztlAURdhsNsiybMhMz+wzcDgc4DjObBKLDPF+v4frujDGDJnpWESA2O128DwPTdMMmWlYTIDYbrfwfX9YTcOiAmEYyhUQ3UKih1j0NSr6QxbHsexfCfE/c0uhAtyoADcqwI0KcKMC3KgANyrAjWgB8a9VqPDTpZArcDUWubnJFKA3c7T7ddPKebE1vlqknT9drihL2697AZrmTw8aWCo8L26wVY22u/fF9wKlrSAhqHBqm3Hn3/HEDxERt3LZTmjGAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='삼성전자 : 네이버 뉴스검색' /&gt;" SearchSteps="FuzzySelector, Image">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target DesignTimeRectangle="725, 796, 7, 14" FriendlyName="'다음'" FullSelectorArgument="&lt;webctrl aaname='다음' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='다음' tag='I' type='' check:text='다음' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAAsAAAASCAYAAACNdSR1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACRSURBVDhPnZItDgMhEEZ7WRIMDsUJcJwBheIAaOxaLoBEoUhQX7PppMlmSTvsc/PlkcwPL2zwTHbOodZK1ZqvXEqBEAKtNUruXNo4jgNSSvTeKbly6znnDKXU8sFywJQStNYYY1DyYSmfxBhhjMGck5If8kkIAdZaqv7I3nuezG6DPSB7deyjbJ176yNx2JCBN7Cg8ykcZziPAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NExtractData.NextLink>
+                <uix:NExtractData.Target>
+                  <uix:TargetAnchorable BrowserURL="https://search.naver.com/search.naver?where=news&amp;sm=tab_pge&amp;query=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90&amp;sort=0&amp;photo=0&amp;field=0&amp;pd=0&amp;ds=&amp;de=&amp;cluster_rank=35&amp;mynews=0&amp;office_type=0&amp;office_section_code=0&amp;news_office_checked=&amp;nso=so:r,p:all,a:all&amp;start=11" DesignTimeRectangle="81, 323, 670, 1949" ElementType="List" FriendlyName="'UL'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;ul' tag='UL' /&gt;" Guid="f255b137-da79-4fdf-9a4a-105f0ad35edf" InformativeScreenshot="72dc00ff6cc3c61aa4652d6173e8a6d0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='삼성전자 : 네이버 뉴스검색' /&gt;" SearchSteps="Selector" />
+                </uix:NExtractData.Target>
+              </uix:NExtractData>
+              <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[ExtractDataTable]" Delimitator="Comma" DisplayName="Write CSV" FilePath="SAMSUNG_News.csv" sap:VirtualizedContainerService.HintSize="434,152" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1296, 1056" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIfSURBVFhHxZZPT1NBFMVvcjbGhZv3KVz6aVSgtCoFNm5c+T1IdMnGL2AaIyFGhAoUaANiqUVflRhjQwzGhCY2RrzeqxM603c72znJLzmdN+d03r92CD8WagInokb4Ps8pIXwTkxDCaZVTQujPcUoIX+5xSgifxSSEcHKXU0L4eIej5CXO8mrAlbzM6FVGc3plznrzhXmaDboMCLmYGN1pHtfT8ybjeGY050PZHQml2aDLgPBeziRGZ8rVhbrfX5YvkDPUOcezbjSUZgt9YxC6YmK07QUM//ziG/lDxrvZf1jSrNnpQejI/Yzx9rarK6o7/MrXjuRStktuJJRmzU4PQlvOIMabW67O1vLZGuPQvkqaNTs9CIdiYuzHF6Ca+bTkXCjNmp0ehAN5kGK0brq6yTq/+OlcKM2anR6EfTEx9uwFDC6Gzk2WZs1OD0JLLkWMHfsWVHqPnJsszZqdHoSmmBgNewFZa46X+ivuky3Nmp0ehF15HWJs2a9h1lzgqztlPhicuJGiNGt2ehAaYmJsTljAnuzptkt8vfWAB7/t50GzZqcHYUt+kWLU7Xc8ayz+P/66xJXuYzcaSrOFvjEIm2JibEQWcDlnmp+c1t2RkTQbdBkQ6vJTGmNdXpdX8q8WIP+EG3IJL+dJmY6Nz9Os32VAWBeTEMKa7EwSQngpe7OEEF6ISQhhVfbnCSGsiEkI4bnsXhNCeFatCZyGau0vnrb5PVYj75UAAAAASUVORK5CYII=" InformativeScreenshot="755a764e207531870f4ef284539af9ac.png" Selector="&lt;html app='chrome.exe' title='NAVER'/&gt;" Url="https://www.naver.com/" />
+        </uix:NApplicationCard.TargetApp>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </uix:NApplicationCard>
+    </FlowStep>
+  </Flowchart>
+</Activity>

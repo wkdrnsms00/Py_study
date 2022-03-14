@@ -6,22 +6,22 @@ import urllib.request
 driver = webdriver.Chrome("C:/Users/aquus/Desktop/Py_study/Crawlingenv/chromedriver.exe")
 driver.get("https://www.google.co.kr/imghp?hl=ko&authuser=0&ogbl") #구글 이미지 주소
 elem = driver.find_element_by_name("q") # 구글 검색창
-elem.send_keys("코딩") # 검색할 내용
+elem.send_keys("나무") # 검색할 내용
 elem.send_keys(Keys.RETURN) # 엔터
 
-SCROLL_PAUSE_TIME = 1
-last_height = driver.execute_script("return document.body.scrollHeight") # 스크롤 높이 저장
-while True:
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);") #브라우저 끝까지 스크롤 내림
-    time.sleep(SCROLL_PAUSE_TIME)
-    # Calculate new scroll height and compare with last scroll height
-    new_height = driver.execute_script("return document.body.scrollHeight") # 브라우저 높이 비교
-    if new_height == last_height:
-        try: # 시도했을 때
-            driver.find_element_by_css_selector(".mye4qd").click() # 결과 더 보기 버튼 선택
-        except: # 없으면 여기로
-            break
-    last_height = new_height
+# SCROLL_PAUSE_TIME = 1
+# last_height = driver.execute_script("return document.body.scrollHeight") # 스크롤 높이 저장
+# while True:
+#     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);") #브라우저 끝까지 스크롤 내림
+#     time.sleep(SCROLL_PAUSE_TIME)
+#     # Calculate new scroll height and compare with last scroll height
+#     new_height = driver.execute_script("return document.body.scrollHeight") # 브라우저 높이 비교
+#     if new_height == last_height:
+#         try: # 시도했을 때
+#             driver.find_element_by_css_selector(".mye4qd").click() # 결과 더 보기 버튼 선택
+#         except: # 없으면 여기로
+#             break
+#     last_height = new_height
 # 검색 후 나오는 이미지들
 count = 1
 images = driver.find_elements_by_css_selector(".rg_i.Q4LuWd")
