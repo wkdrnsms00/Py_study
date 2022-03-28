@@ -1,3 +1,5 @@
+#현재 프로젝트를 서비스하기 위한 WSGL 호환 웹 서버의 진입점
+#gateway interface 중 하나 
 """
 WSGI config for clone_PJ project.
 

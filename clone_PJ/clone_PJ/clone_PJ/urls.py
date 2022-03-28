@@ -1,3 +1,6 @@
+#현재 Django 프로젝트의 URL 선언을 저장
+#사용자가 url로 django에 접근하면 들어온 url로 rul 규칙을 보고 내부에 일치하는 View를 찾아 연결
+
 # """clone_PJ URL Configuration
 
 # The `urlpatterns` list routes URLs to views. For more information please see:
@@ -20,11 +23,13 @@
 #     path('admin/', admin.site.urls),
 #     path('',include('App1.urls'))
 # ]
+#-*- coding:EUC-kr-*-
 from django.contrib import admin
-from django.urls import path
-from .views import Sub
+from django.urls import include, path
+from board.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', Sub.as_view())
+    path('',index, name='index')
+
 ]

@@ -1,3 +1,6 @@
+#Django 프로젝트오 ㅏ다양한 방법으로 상호작용하는 커맨드라인의 유틸리티
+#스크립트, 사이트 관리를 도와주는 역활
+#다른 설치 작업 없이 웹서버를 실행할 수 있음
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os

@@ -1,3 +1,5 @@
+#django-channels를 사용할 때 알아야 하는 개념
+#data를 주고 받는 방식에 따라 사용개념이 다름
 """
 ASGI config for clone_PJ project.
 
