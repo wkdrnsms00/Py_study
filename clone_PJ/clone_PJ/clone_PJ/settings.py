@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'clone_PJ.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'test',
-        'USER': 'wkdrnsms00',
-        'PASSWORD': 'wjsdntjr11?',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
     }
 }
 
